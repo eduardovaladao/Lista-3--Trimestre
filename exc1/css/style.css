@@ -1,0 +1,50 @@
+:root {
+    --primary-color : #eef4ff;
+    --secondary-color : #ffffff;
+    --terciary-color : #E08412;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#alert {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.main {
+    width: 400px;
+    height: fit-content;
+    margin: 100px 0px 0px 0px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px;
+}
+
+.table {
+    margin: 10px 0px;
+}
+
+.table td, .table th {
+    background-color: var(--secondary-color);
+}
+
+@media(max-width: 350px) {
+    .input-group {
+        width: fit-content;
+    }
+
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
