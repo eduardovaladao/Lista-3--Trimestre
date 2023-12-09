@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #FFFFFF;
+    --terciary-color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#warning {
+    display: none;
+    margin: 10px 0px;
+}
+
+.main {
+    margin: 100px 0px 0px 0px;
+    width: 400px;
+    height: fit-content;
+}
